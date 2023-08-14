@@ -28,8 +28,6 @@ body{
     margin-right:15%;
     margin-left:15%;
     background-color: rgb(250, 250, 255);
-
-
 }
 
 .navbar-menu{
@@ -96,6 +94,7 @@ body{
     color: #202020;
     transition: all 0.15s ease-in;
 }
+
 .contact{
     margin-left: 50%;
     margin-right: auto;
@@ -245,8 +244,6 @@ body{
     border-width:1.4px;
 }
 
-
-
 .email{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.2rem;
@@ -259,5 +256,227 @@ body{
 .links a:hover{
     -webkit-text-stroke-color: transparent;
     border-color: #202020;
+}
+
+
+
+/*********MOBILE FRIENDLY CSS*************/
+
+@media only screen and (max-width: 600px) {
+
+    body{
+        overflow-x: hidden;
+        overflow-y: auto;
+        margin-right:5%;
+        margin-left:5%;
+        background-color: rgb(250, 250, 255);
+    }
+    
+    .navbar-menu{
+        margin:none;
+        margin-top:0rem;
+        padding:none;
+        overflow:none;
+        display: flex;
+        flex-direction:column;
+        position:fixed;
+        top:0;
+        background-color: rgb(250, 250, 255);
+        z-index:4;
+    }
+    
+    .banner{
+        width:40vw;
+        padding-top:10%;
+        height:auto;
+        transition: all 0.15s ease-in;
+        color:transparent;
+    }
+
+    
+    .banner:hover{
+        transform: translateY(2rem);
+        transform: rotate(7deg);
+    }
+    
+    
+    .navbar-menu a{
+        margin-top:0rem;
+        color: transparent;
+        border-style:solid;
+        border-color:#202020;
+        border-width:1.4px;
+        border-left:none;
+        border-top:none;
+        border-bottom:none;
+        -webkit-text-stroke-width: 1.2px; 
+        -webkit-text-stroke-color:#202020;
+        transition: all 0.1s ease-in-out;
+    }
+    
+    .navbar-menu a:hover{
+        opacity:1;
+        color: #202020;
+        -webkit-text-stroke-width: 0.5px; 
+    }
+    
+         /* HOVER ANIMATIONS FOR NAVBAR */
+    
+    .navbar-menu .current{
+        color: #474747;
+        -webkit-text-stroke-width: 0px; 
+    }
+    
+    .me{
+        margin-bottom:7rem;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        justify-content: space-between;
+    }
+    
+    
+    .me .content{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border-style:solid;
+        border-top:none;
+        border-bottom:none;
+        border-left:none;
+        border-width:1.4px;
+        margin-left:0rem;
+        margin-top:45%;
+        padding:2rem;
+        padding-left:0rem;
+    }
+    
+    
+    .me img{
+        max-width:100%;
+        height:auto;  
+        margin-left:auto;
+        margin-right:0vw;
+        z-index:0;
+        padding-bottom:3rem;
+        padding-top:4rem;
+        border-style:solid;
+        border-left:none;
+        border-right:none;
+        border-top:none;
+        border-width:1.4px;
+    }
+    
+     p{
+        margin-right:0vw;
+        font-family: rig-shaded-light-face, sans-serif;
+        text-align: left ;
+        font-size:1.2rem;
+        font-weight:4000;
+        color: #202020;
+        max-width:100%;
+     }
+    
+     .bold{
+        word-wrap: break-word;
+        font-family: rig-shaded-bold-face, sans-serif;
+     }
+    
+    .see-things{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position:fixed;
+        top:0;
+        right:0; 
+        padding-left:100vw;
+        background-color: rgb(250, 250, 255);
+
+    }
+    
+    .my-work{
+        max-width:90%;
+        margin-top:5%;    
+        margin-right:-8rem;
+        font-size: 15vw;
+        font-family: balboa-plus-fill, sans-serif;
+        font-weight: 400;
+        line-height:7vh;
+        text-align: left;
+        flex-grow: 1;
+        text-decoration: none;
+        color: #474747;
+        color: transparent;
+        -webkit-text-stroke-width: 1.2px; 
+        -webkit-text-stroke-color:#474747;
+        transition: all 0.15s ease-in-out;
+        border-style:solid;
+        border-left:none;
+        border-top:none;
+        border-right:none;
+        border-width:4.5px;
+    }
+    
+    .my-work:hover{
+        color: #202020;
+        -webkit-text-stroke-color:transparent;
+    }
+    
+    .links{
+        display:flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        transition: all 0.1s ease-in-out;
+        position:fixed;
+        justify-content: space-around;
+        bottom:0;
+        right:0;
+        margin-top:80vh;
+        margin-bottom: 0rem;
+        margin-right: 0rem;
+        background-color: rgb(250, 250, 255);
+        padding-bottom:1.2rem;
+        width:100vw;
+
+    }
+    
+    .links a{
+        margin-top:1.2rem;
+        padding-top:0rem;
+        padding-bottom:0rem;
+        padding-right:2rem;
+        font-size: 0.8rem;
+        font-family: rig-shaded-light-face, sans-serif;
+        line-height: 0.1rem;
+        font-weight: 400;   
+        font-style: normal;
+        text-decoration: none;
+        text-align: right;
+        color: #202020;
+        transition: all 0.15s ease-in-out;
+        border-style:dashed;
+        border-bottom:none;
+        border-right:none;
+        border-left:none;
+        border-color:transparent;
+        border-width:1.4px;
+    }
+    
+    
+    
+    .email{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;   
+        font-style: normal;
+        text-decoration: none;
+        text-align: right;
+        color: #202020;
+        padding-right:2rem;
+    }
+    .links a:hover{
+        -webkit-text-stroke-color: transparent;
+        border-color: #202020;
+    }
 }
 
