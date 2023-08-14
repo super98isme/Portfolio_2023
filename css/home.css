@@ -1,0 +1,104 @@
+body{
+    margin-right:15%;
+    margin-left:15%;
+}
+
+.navbar-menu{
+    font-size: 3rem;
+    font-family: balboa-plus-fill, sans-serif;
+    font-weight: 400;   
+    font-style: normal;
+    margin:none;
+    overflow:auto;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+.navbar-menu a{
+    padding:none;
+    text-align: right;
+    text-decoration: none;
+    color: transparent;
+    -webkit-text-stroke-width: 1.5px; 
+    -webkit-text-stroke-color:#474747;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-menu a:hover{
+    transform: translateY(-5px);
+    color: #474747;
+}
+
+     /* HOVER ANIMATIONS FOR NAVBAR */
+
+.navbar-menu .current{
+    -webkit-text-stroke-width: 0px; 
+    color: #474747;
+}
+
+.content{
+    margin-top:3rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 0px;
+    display:flex;
+    flex-direction: column;
+    background-image:url("canvas.JPG");
+    color: #202020;
+    letter-spacing: -0.2rem;
+
+}
+
+.content h1{
+    font-family: rig-shaded-bold-face, sans-serif;
+    font-weight: 2000;
+    font-size: 3rem;
+    font-style: normal;
+    text-align:center;
+}
+
+.content p{
+    font-family: rig-shaded-light-face, sans-serif;
+    font-size: 6rem;
+    font-weight: 300;   
+    font-style: normal;
+    /* line-height: 2rem; */
+
+    line-height: 4.5rem;
+    /* letter-spacing: 0.05rem; */
+ }
+
+footer{
+    display:flex;
+    flex-direction: column;
+}
+
+.my-work{
+    flex-grow: 1;
+    font-size: 3.5rem;
+    font-family: rig-shaded-bold-face, sans-serif;
+    font-weight: 400;   
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    color: transparent;
+    -webkit-text-stroke-width: 1.5px; 
+    -webkit-text-stroke-color:#202020;
+    transition: all 0.15s ease-in-out;
+}
+
+.my-work:hover{
+    color:#202020;
+    transform: translateY(-0.1rem);
+}
+
+.banner{
+    width:40%;
+    height:40%;
+    margin-left:auto;
+    margin-right:auto;
+    mix-blend-mode:multiply;
+
+}
+
