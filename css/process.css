@@ -427,7 +427,6 @@ footer{
         display:flex;
         flex-direction: column; 
         flex-wrap: wrap;
-        max-width:100vw;
     }
     
     .main-container{
