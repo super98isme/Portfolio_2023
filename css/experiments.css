@@ -757,18 +757,19 @@ footer{
     .title{
         max-width:95vw;
         text-decoration: none;
-        font-size:3.5rem;
+        font-size:3.2rem;
         font-family: rig-shaded-bold-face, sans-serif;
         text-align: right;
         color: #202020;
-        letter-spacing: -0.5rem;
+        letter-spacing: -0.4rem;
         z-index: 0;
         word-wrap: break-word;
+        margin-bottom:1rem;
      }
 
     .tagline{
         font-family: rig-shaded-bold-face, sans-serif;
-        font-size:1.7rem;
+        font-size:1.2rem;
         font-weight: 400;
         font-style: normal;
         text-align:right;
@@ -777,8 +778,8 @@ footer{
         mix-blend-mode: exclusion;
         -webkit-text-stroke-width:0px;
         z-index: 3;
-        border-radius: 7px;
-        
+        border-radius: 7px;        
+        margin-bottom:1rem;
     }
     
     .face-image{
