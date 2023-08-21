@@ -40,11 +40,11 @@ body{
 
 .banner{
     color:transparent;
-    width:10vw;
+    width:12vw;
     mix-blend-mode:multiply;
     transition: all 0.15s ease-in;
     margin-right:30vw;
-    margin-top:5rem;
+    margin-top:10vh;
     position:fixed;
     top:0;
     right:0;
@@ -93,20 +93,15 @@ body{
 .navbar-menu p{
     font-family: rig-shaded-light-face, sans-serif;
     letter-spacing: 0.001rem;
-    font-size: 10vw;
+    font-size: 4vw;
     font-weight: 300;   
-    /*position:fixed;
+    position:fixed;
     top:0;
     left:0;
     margin-left:20vw;
-    margin-top:50vh;*/
-    position:fixed;
-    top:0;
-    right:0;
-    margin-right:20vw;
-    margin-top:10vh;
+    margin-top:50vh;
     font-style: normal;
-    text-align: center;
+    text-align: right;
  }
 
 .content{
@@ -132,16 +127,34 @@ body{
     font-size: 4.5vw;
     font-style: normal;
     text-align:right;
+    margin-right: 0rem;
+    margin-left: 0rem;
+
  }
 
- .left-content p{
+ /*.left-content p{
     font-family: rig-shaded-light-face, sans-serif;
     letter-spacing: 0.001rem;
-    font-size: 2vw;
+    font-size: 1.7vw;
     font-weight: 300;   
     font-style: normal;
     text-align: right;
- }
+    margin: 0rem;
+ }*/
+ 
+ .left-content p{
+    font-family: rig-shaded-bold-face, sans-serif;
+    letter-spacing: 0.001rem;
+    font-size: 2.2vw;
+    font-style: normal;
+    text-align:right;
+    margin: 0rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+    padding-top:0vh;
+    font-style: italic;
+    color: #474747;
+}
  
  .left-content a:hover{
      color:#202020;
@@ -171,12 +184,12 @@ footer{
 }
 
 .work-categories a{
-    font-size:6rem;
+    font-size:6vw;
     font-family:rig-shaded-bold-face, sans-serif;
     font-style: normal;
     text-align: left; 
     text-decoration: none;
-    letter-spacing: -0.5rem;
+    letter-spacing: -0.5vw;
     text-align: right;
     transition: all 0.1s ease-out;
     -webkit-text-stroke-width: 1.4px;
@@ -235,8 +248,9 @@ footer{
     }
     
      .navbar-menu a{
-        padding-top:1rem;
-        font-size: 2.3rem;
+        margin-top:1rem;
+        padding:1rem;
+        font-size: 15vw;
         font-family: balboa-plus-fill, sans-serif; 
         font-weight: 400;   
         font-style: normal;
@@ -249,9 +263,10 @@ footer{
         transition: all 0.05s ease-in-out;
         border-style:solid;
         border-top:none;
-        border-left:none;
+        border-bottom:none;
         border-right:none;
-        border-width:4.5px;
+        border-width:1.7px;
+        border-color: #202020;
         position:fixed;
         margin-left:2vw;
     }
@@ -279,21 +294,37 @@ footer{
         padding:1.2rem;
     }
 
-    .left-content h1{
+     .left-content h1{
         font-family: rig-shaded-bold-face, sans-serif;
-        font-size: 3rem;
+        font-size: 15vw;
         font-style: normal;
         text-align:left;
+        margin-right: 0rem;
+        margin-left: 0rem;
      }
-     
+
+    .left-content p{
+        font-family: rig-shaded-bold-face, sans-serif;
+        letter-spacing: 0.001rem;
+        font-size: 7vw;
+        font-style: normal;
+        text-align:right;
+        margin: 0rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
+        padding-top:0vh;
+        font-style: italic;
+        color: #474747;
+
+    }
 
      .banner{
         color:transparent;
-        width:30vw;
+        width:90vw;
         mix-blend-mode:multiply;
         transition: all 0.15s ease-in;
-        margin-right:10vw;
-        margin-top:2rem;
+        margin-right:25vw;
+        margin-top:72vh;
         position:fixed;
         top:0;
         right:0;
@@ -301,7 +332,7 @@ footer{
 
     .work-categories{
 
-        margin-top: 3rem;
+        margin-top: 15vh;
         display:flex;
         flex-direction:column;
         flex-wrap: wrap;
