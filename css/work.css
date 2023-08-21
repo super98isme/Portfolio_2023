@@ -93,16 +93,22 @@ body{
 .navbar-menu p{
     font-family: rig-shaded-light-face, sans-serif;
     letter-spacing: 0.001rem;
-    font-size: 1.6rem;
+    font-size: 10vw;
     font-weight: 300;   
+    /*position:fixed;
+    top:0;
+    left:0;
+    margin-left:20vw;
+    margin-top:50vh;*/
     position:fixed;
     top:0;
     right:0;
-    margin-right:15vw;
-    margin-top:11.5rem;
+    margin-right:20vw;
+    margin-top:10vh;
     font-style: normal;
     text-align: center;
  }
+
 .content{
     display:flex;
     flex-direction: row;
@@ -115,6 +121,7 @@ body{
  .left-content{
      display:flex;
      flex-direction: column;
+     justify-content:right;
      line-height:0.5rem;
      height:24rem;
      padding:1.2rem;
@@ -122,10 +129,18 @@ body{
 
  .left-content h1{
     font-family: rig-shaded-bold-face, sans-serif;
-    font-weight: 2000;
-    font-size: 4rem;
+    font-size: 4.5vw;
     font-style: normal;
-    text-align:left;
+    text-align:right;
+ }
+
+ .left-content p{
+    font-family: rig-shaded-light-face, sans-serif;
+    letter-spacing: 0.001rem;
+    font-size: 2vw;
+    font-weight: 300;   
+    font-style: normal;
+    text-align: right;
  }
  
  .left-content a:hover{
