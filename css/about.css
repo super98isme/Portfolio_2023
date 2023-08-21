@@ -288,7 +288,7 @@ body{
     .banner{
         max-width:90%;
         width:32vw;
-        padding-top:10%;
+        padding-top:5%;
         height:auto;
         transition: all 0.15s ease-in;
         color:transparent;
@@ -430,7 +430,7 @@ body{
         justify-content: space-around;
         bottom:0;
         right:0;
-        margin-top:80vh;
+        margin-top:80vh; 
         margin-bottom: 0rem;
         margin-right:5%;
         margin-left: 5%;
@@ -438,6 +438,7 @@ body{
         padding-bottom:1rem;
         padding-top:0rem;
         width:90vw;
+        min-height:13vh;
         height:auto;
         background-color: rgb(250, 250, 255);
 
@@ -449,6 +450,7 @@ body{
         padding-bottom:0rem;
         padding-right:2rem;
         font-size: 1.5vh;
+
         font-family: rig-shaded-light-face, sans-serif;
         line-height: 0.4vh;
         font-weight: 400;   
