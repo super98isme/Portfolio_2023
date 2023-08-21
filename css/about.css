@@ -449,7 +449,7 @@ body{
         padding-right:2rem;
         font-size: 1.5vh;
         font-family: rig-shaded-light-face, sans-serif;
-        line-height: 0.1rem;
+        line-height: 0.4vh;
         font-weight: 400;   
         font-style: normal;
         text-decoration: none;
@@ -466,7 +466,7 @@ body{
     
     .email{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 1rem;
+        font-size: 2vh;
         font-weight: 400;   
         font-style: normal;
         text-decoration: none;
