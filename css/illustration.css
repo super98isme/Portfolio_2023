@@ -648,10 +648,10 @@ footer{
         flex-direction:row;
         flex-wrap: wrap;
         margin-top: 9vh;
-        padding-top:0.9rem;
+        padding-top:1.5vh;
         padding-left:1.2rem;
         padding-right:1.2rem;
-        padding-bottom:0.3rem;
+        padding-bottom:2.5vh;
         opacity:1;
         z-index:3;
         background-color: rgb(250, 250, 255);
@@ -662,7 +662,7 @@ footer{
     .my-work a{
         /* font-size:1rem; */
         max-width:35%;
-        font-size:4.1vw;
+        font-size:4vw;
         font-family: rig-shaded-bold-face, sans-serif;
         letter-spacing:-0.03rem;     
         text-align: center;
@@ -684,7 +684,7 @@ footer{
         border-bottom:none;
         border-width:1.2px;
         color: #000000;
-        transform: translateX(-1rem) translateY(1rem) scale(1.5);    }
+        transform: translateX(-6vw) translateY(1vh) scale(1.5);    }
     
 
     .my-work a:hover{
@@ -729,7 +729,7 @@ footer{
         border-bottom:none;
         border-width:1.2px;
         color: transparent;
-        transform: translateX(1rem) translateY(1rem) scale(1.5);
+        transform: translateX(6vw) translateY(1vh) scale(1.5);
     }
     
     .sketchbook:hover{
