@@ -2,7 +2,12 @@
 
 var Airtable = require('airtable');
 
-var base = new Airtable({apiKey: 'keysB9c0oyfbHHQjo'}).base('appfjsaZpz1Goa7dj');
+Airtable.configure({
+  endpointUrl: 'https://api.airtable.com',
+  apiKey: 'patUdajJpovtdEQFy.911e38442614b47e02fda1bf67a7f4ac314c9563edde501ceca6b82b1c379d84'
+});
+var base = Airtable.base('appfjsaZpz1Goa7dj');
+
 var content = document.querySelector(".content");
 var fetchRecord = function(slug, recordID) {
   if (!slug) {
