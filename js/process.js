@@ -1,6 +1,10 @@
 var Airtable = require('airtable');
 
-var base = new Airtable({apiKey: 'keysB9c0oyfbHHQjo'}).base('appfjsaZpz1Goa7dj');
+Airtable.configure({
+  endpointUrl: 'https://api.airtable.com',
+  apiKey: 'patUdajJpovtdEQFy.911e38442614b47e02fda1bf67a7f4ac314c9563edde501ceca6b82b1c379d84'
+});
+var base = Airtable.base('appfjsaZpz1Goa7dj');
 
 ////FETCH RECORD UJSING SELECT METHOD////
 
@@ -43,11 +47,12 @@ var base = new Airtable({apiKey: 'keysB9c0oyfbHHQjo'}).base('appfjsaZpz1Goa7dj')
 
 ////FETCH RECORD USING FIND METHOD////
 
-  var fetchRecord = function(slug, recordID) {
-    if (!slug) {
-      console.log('No slug provided, cancelling API call');
-      return;
-    }
+var fetchRecord = function(slug, recordID) {
+  if (!slug) {
+    content.style.display = "none";
+    console.log('No slug provided');
+    return;
+  }
 
     // var record = record.id;
 
